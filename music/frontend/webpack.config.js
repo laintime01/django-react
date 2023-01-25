@@ -1,16 +1,12 @@
 const path = require("path");
 const webpack = require("webpack");
-const { SourceMapDevToolPlugin } = require("webpack");
-
 
 module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "./static/frontend"),
     filename: "[name].js",
-    sourceMapFilename: "[name].js.map"
   },
-  devtool: "eval-cheap-source-map",
   module: {
     rules: [
       {
