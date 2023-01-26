@@ -1,11 +1,3 @@
-/*! CommonJS bailout: module.exports is used directly at 17:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 55:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 5:4-18 */
-
-/*! CommonJS bailout: module.exports is used directly at 9:4-18 */
-
 /*! default exports */
 
 /*! dynamic exports */
